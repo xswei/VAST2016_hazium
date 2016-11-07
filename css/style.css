@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	overflow: hidden;
+	background: black;
+}
+.checkbox{
+	margin-top:0px;
+	position: absolute;
+	display: none;
+	text-align: center;
+	border: 1px #ccc solid;
+	color:white;
+}
+.focus_axis path,
+.focus_axis line{
+	fill:none;
+	stroke:#ccc;
+}
+.focus_axis text{
+	fill:#ccc;
+}
+.context_axis path,
+.context_axis line{
+	fill:none;
+	stroke:#ccc;
+}
+.context_axis text{
+	fill:#ccc;
+}
+.brush .extent{
+	stroke: #ccc;
+	stroke-width:2; 
+	fill:steelblue;
+	opacity: 0.3;
+	shape-rendering: crispEdges;
+}
+.tip_text{
+	fill:white;
+}
+.line{
+	clip-path: url(#clip);
+}
+.f1z8a{
+	stroke:#f00078;
+}
+.f2z2{
+	stroke: #00AEAE;
+}
+.f2z4{
+	stroke: #D9B300;
+}
+.f3z1{
+	stroke: #8cea00;
+}
